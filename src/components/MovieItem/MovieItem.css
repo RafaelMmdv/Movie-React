@@ -2,6 +2,7 @@
   padding: 20px;
   background-color: #ffeedb;
   display: flex;
+  font-family: Roboto,sans-serif;
 }
 
 .movie-item__poster {

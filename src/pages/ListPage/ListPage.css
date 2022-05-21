@@ -19,9 +19,12 @@
 
 .movie-item {
   margin-bottom: 20px;
-  background-color: #ffeedb;
+  background-color: rgb(225, 126, 255);
   display: flex;
+  width: 550px;
+  border-radius: 5px;
 }
+
 
 .link-film {
   display: flex;

@@ -1,5 +1,5 @@
 .header {
-    background: #496DDB;
+    background: #be49db;
     padding: 20px calc(50% - 500px) 10px;
 }
 
@@ -8,4 +8,5 @@
     color: #FFEEDB;
     font-size: 45px;
     margin-left: 40px;
+    padding-left: 350px;
 }

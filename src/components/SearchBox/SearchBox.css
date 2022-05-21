@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Roboto+Slab:wght@800&display=swap');
 .search-box__form {
   display: flex;
 }
@@ -6,16 +7,18 @@
   display: inline-block;
   font-size: 12px;
   margin-right: 10px;
+  font-family: Roboto ;
 }
 
 .search-box__form-input {
   box-sizing: border-box;
   display: block;
   margin-top: 5px;
-  width: 300px;
+  width: 500px;
   font-size: 14px;
   padding: 5px 10px;
   border: 1px solid rgba(0, 8, 7, 0.5);
+  border-radius: 10px;
 }
 
 .search-box__form-submit {
@@ -28,9 +31,10 @@
   border-style: solid none;
   border-color: #fdbe33 #000 #d77206;
   border-radius: 6px;
-  background: linear-gradient(#f3ae0f, #e38916) #e38916;
+  background: linear-gradient(#06a500, #06a500) ;
   transition: 0.2s;
 }
+
 
 .search-box__form-submit:hover:not(:disabled) {
   opacity: 0.8;
@@ -38,7 +42,7 @@
   transition: all 0.2s linear;
   background-color: #ffeedb;
   /* color: rgba(0, 8, 7); */
-  background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+  background: linear-gradient(#005ef5, #005ef5) #005ef5;
 }
 
 .search-box__form-submit:disabled {
