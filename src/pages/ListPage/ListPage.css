@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+.list-page {
+  padding: 42px calc(50% - 300px);
+}
+
+.list-page__title {
+  font-size: 34px;
+  margin-bottom: 26px;
+  font-family: "Balsamiq Sans", Arial, Helvetica, sans-serif;
+}
+
+.list-page ul li {
+  font-size: 18px;
+  font-family: "Kaushan Script", "Times New Roman", Times, serif;
+}
+
+.movie-item {
+  margin-bottom: 20px;
+  background-color: #ffeedb;
+  display: flex;
+}
+
+.link-film {
+  display: flex;
+  align-items: center;
+}

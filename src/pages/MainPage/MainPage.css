@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Train+One&display=swap");
+
+.main-page__content {
+  padding: 42px calc(50% - 500px);
+  display: flex;
+  justify-content: space-between;
+  font-family: "Train One", "Times New Roman", Times, serif;
+}
+
+.main-page__main-section {
+  padding-left: 40px;
+  box-sizing: border-box;
+  width: 60%;
+}
+
+.main-page__search-box {
+  margin-bottom: 35px;
+}
+
+.main-page__favorites {
+  width: 35%;
+}
