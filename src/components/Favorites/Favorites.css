@@ -5,6 +5,7 @@
   padding: 30px 20px;
   max-height: 400px;
   overflow: scroll;
+  font-family: Roboto, sans-serif;
 }
 
 .favorites__name {
@@ -26,7 +27,7 @@
   border: none;
   transition: all 0.2s linear;
   color: #ffeedb;
-  background-color: rgba(0, 8, 7);
+  background-color: rgb(0, 218, 193);
 }
 
 .search-box__form-submit:hover:not(:disabled) {
@@ -34,7 +35,7 @@
   cursor: pointer;
   transition: all 0.2s linear;
   background-color: #ffeedb;
-  color: rgba(0, 8, 7);
+  color: rgb(0, 234, 207);
 }
 
 .search-box__form-submit:disabled {
