@@ -8,7 +8,7 @@ class Movies extends Component {
     return (
       <ul className="movies">
         {movies.map((movie) => (
-          <li className="movies__item" key={movie.imdbID}>
+          <li className="movies-item" key={movie.imdbID}>
             <MovieItem
               title={movie.Title}
               year={movie.Year}

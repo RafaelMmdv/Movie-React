@@ -31,11 +31,11 @@ class Favorites extends Component {
         <input
           value={this.state.title}
           placeholder="Введите название списка"
-          className="favorites__name"
+          className="favoritesName"
           onChange={this.onTitleChange}
           disabled={this.state.id || favorites.length === 0}
         />
-        <ul className="favorites__list">
+        <ul className="favoritesList">
           {favorites.map((item, idx) => {
             return (
               <li key={item.imdbID} className="favorites__list-item">
@@ -59,7 +59,7 @@ class Favorites extends Component {
           <button
             onClick={this.preservationFilms}
             type="button"
-            className="search-box__form-submit"
+            className="search-box-form"
             disabled={!this.state.title}
           >
             Сохранить список
