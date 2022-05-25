@@ -9,18 +9,18 @@ class MovieItem extends Component {
     return (
       <article className="movie-item">
         <img
-          className="movie-item__poster"
+          className="movie-item-poster"
           src={poster !== "N/A" ? poster : replacementPoster}
           alt={title}
         />
-        <div className="movie-item__info">
-          <h3 className="movie-item__title">
+        <div className="movie-item-info">
+          <h3 className="movie-item-title">
             {title}&nbsp;({year})
           </h3>
           <button
             onClick={adFilmList}
             type="button"
-            className="movie-item__add-button"
+            className="movie-item-add-button"
           >
             Добавить в список
           </button>

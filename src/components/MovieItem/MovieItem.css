@@ -1,32 +1,48 @@
 .movie-item {
-  padding: 20px;
-  background-color: #ffeedb;
+  width: 200px;
+  margin: 0 1rem 1rem 0;
+  padding: 0.8rem;
+  background-color: #333;
+  color: white;
   display: flex;
-  font-family: Roboto,sans-serif;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.25rem;
+  font-family: Montserrat ;
 }
 
-.movie-item__poster {
-  height: 150px;
-  margin-right: 21px;
+.movie-item-poster {
+  width: 250px;
+  margin-left: 160px;
+  height: 19rem;
+  border-radius: 0.25rem;
 }
 
-.movie-item__title {
+.movie-item-title {
+  height: 5rem;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 1.1rem;
   margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.movie-item__add-button {
+.movie-item-add-button {
+  position: relative;
+  width: 500px;
   border: none;
-  background-color: #496ddb;
+  background-color: #444;
   padding: 10px 15px;
-  color: #ffeedb;
+  color: rgb(87, 153, 239);
   font-size: 14px;
+  margin: 0 auto;
+  margin-left: 25px;
   transition: all 0.2s linear;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
-.movie-item__add-button:hover {
+.movie-item-add-button:hover {
   cursor: pointer;
   opacity: 0.9;
   transition: all 0.2s linear;

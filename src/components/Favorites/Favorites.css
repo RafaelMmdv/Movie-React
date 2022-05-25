@@ -8,31 +8,34 @@
   font-family: Roboto, sans-serif;
   margin-left: 200px;
   margin-top: 125px;
+  border-radius: 5px;
 }
 
-.favorites__name {
+.favoritesName {
   box-sizing: border-box;
   width: 100%;
   font-size: 16px;
   padding: 5px 10px;
   border: 1px solid rgba(0, 8, 7, 0.5);
   margin-bottom: 24px;
+  border-radius: 5px;
 }
 
-.favorites__list {
+.favoritesList {
   margin-bottom: 24px;
 }
 
-.search-box__form-submit {
+.search-box-form {
   margin-top: 17px;
   padding: 5px 10px;
   border: none;
   transition: all 0.2s linear;
   color: #ffeedb;
   background-color: rgb(0, 218, 193);
+  border-radius: 5px;
 }
 
-.search-box__form-submit:hover:not(:disabled) {
+.search-box-form:hover:not(:disabled) {
   opacity: 0.8;
   cursor: pointer;
   transition: all 0.2s linear;
@@ -40,7 +43,7 @@
   color: rgb(0, 234, 207);
 }
 
-.search-box__form-submit:disabled {
+.search-box-form:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
